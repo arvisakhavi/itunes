@@ -1,7 +1,7 @@
 function search (){
     var artist = document.getElementById("artists").value;
     var limit = document.getElementById("limit").value;
-    $.post('http://itunes.apple.com/search?limit=' + limit +'&term='+ artist, page);
+    $.post('https://itunes.apple.com/search?limit=' + limit +'&term='+ artist, page);
 }
 
 function page(result){
