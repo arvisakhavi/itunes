@@ -1,0 +1,43 @@
+body {
+    font-family: Times serif;
+    font-size: 15px;
+    text-align: center;
+    background-image: url(https://www.desktopbackground.org/download/1280x1024/2010/11/04/105883_itunes-13-el-capitan-wallaper-blank-by-jason-zigrino-png_1412x2662_h.png);
+}
+
+div{
+    background-color: white;
+}
+
+table{
+    border-collapse: collapse;
+    margin:auto;
+}
+
+th, td {
+    border: 5px solid black;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 25px;
+}
+
+#search {
+    border: 5px solid black;
+    width: 450px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+#titleBorder{
+    border: 5px solid black;
+    width: 450px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+#testDiv{
+    margin:10px;
+    padding:10px;
+}

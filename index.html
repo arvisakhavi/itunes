@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- this is a comment-->
+
+</head>
+<body>
+
+<div class = "borderDiv" id = "titleBorder">
+<h1> Itunes </h1>
+<h3> Discover music from your favorite artists </h3>
+</div>
+
+<div class="borderDiv" id="search">
+
+<div  id = "myDiv"></div>
+
+<h3> Choose an Artist: </h3>
+<select id = "artists" title="select an artist">
+    <option value="rihanna">Rihanna</option>
+    <option value="drake">Drake</option>
+    <option value="frank ocean">Frank Ocean</option>
+    <option value="destiny's child">Destiny's Child</option>
+</select>
+
+<h3>number of tracks: </h3>
+<select id = "limit" title="select a number of tracks">
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="15">15</option>
+</select>
+
+<BUTTON onclick="search()">search</BUTTON>
+
+</div>
+
+<br>
+
+<table id= "tableOne" style="display:none" align="center">
+    <tr>
+        <th>artist</th>
+        <th>song</th>
+        <th>album cover</th>
+        <th>album</th>
+        <th>song</th>
+    </tr>
+</table>
+
+</body>
+</html>
